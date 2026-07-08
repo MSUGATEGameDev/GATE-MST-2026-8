@@ -88,8 +88,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf7d1f5038e8d3243b4d5996b5e868c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ChangeLighting
-  color: {r: 1, g: 1, b: 1, a: 1}
-  intensity: 1
+  _: '-- GameAction --
+
+    When activated, changes the color and intensity of the
+    light to the indicated values.'
+  color: {r: 0.9622642, g: 0.049928807, b: 0.049928807, a: 1}
+  intensity: 3
 --- !u!114 &8191022772313193681
 MonoBehaviour:
   m_ObjectHideFlags: 0

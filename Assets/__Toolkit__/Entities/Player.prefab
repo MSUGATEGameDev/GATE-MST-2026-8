@@ -1281,7 +1281,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1024
   attackRadius: 0.5
-  attackDamage: 25
+  attackDamage: 100
   running: 0
   pushing: 0
   curState: 1

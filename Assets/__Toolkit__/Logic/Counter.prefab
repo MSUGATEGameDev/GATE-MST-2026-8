@@ -95,7 +95,7 @@ MonoBehaviour:
 
     A trigger that only activates the objects assigned to
     it when it has been activated a certain number of times.'
-  activateAt: 1
+  activateAt: 3
   resets: 0
   countsDeactivations: 1
 --- !u!114 &2490176829956006077
