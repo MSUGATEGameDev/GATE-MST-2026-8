@@ -2138,8 +2138,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Created By - Andrew Kan\nWritten By - Andrew Kan\n\nGame Template By:
-    \nToastid Waffel & MedievalApple\n(toastidwaffel.com & medievalapple.net)\n\nModels
+  m_text: "Created By - Andrew Kan, his friends\nWritten By - Andrew Kan\n\nGame
+    Template By: \nToastid Waffel & MedievalApple\n(toastidwaffel.com & medievalapple.net)\n\nModels
     By:\nToastid Waffel\nMedieval Apple\nBenjaTheMaker (Unity Asset Store)\nITHappy
     (Unity Asset Store)\nThePolyNestLab (Unity Asset Store)\nDHILRUBA (Unity Asset
     Store)\n"
