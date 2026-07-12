@@ -42,7 +42,7 @@ public class MenuManager : MonoBehaviour
         prevPages.Clear();
         foreach(MenuPage mp in FindObjectsByType<MenuPage>(FindObjectsInactive.Include, FindObjectsSortMode.None))
         {
-            menuPages.Add(mp.gameObject);
+            menuPages.Add(mp.gameObject); 
         }
 
     }
