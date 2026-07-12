@@ -254,6 +254,9 @@ public class Entity : MonoBehaviour
     {
         curState = EStates.dead;
         anim.enabled = false;
+        rigid.linearVelocity = Vector3.zero;
+        curDir = Vector2.zero;
+        
     }
 
     public virtual void DetermineState()

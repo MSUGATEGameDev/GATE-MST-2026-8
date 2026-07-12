@@ -3330,7 +3330,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -0.000061035156, y: 161}
+  m_AnchoredPosition: {x: 0, y: 161}
   m_SizeDelta: {x: 0, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2071406173
@@ -3345,6 +3345,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f0255dd53452a247a4fecd6238f859c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HideForPlatforms
+  _: '-- Tool --
+
+    Disables a game object if the game is running on a particular
+    platform.'
+  hideOnPlatforms: 
 --- !u!114 &2071406174
 MonoBehaviour:
   m_ObjectHideFlags: 0

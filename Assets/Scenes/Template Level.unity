@@ -7682,7 +7682,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 843514914211379963, guid: 195ba845036aaf343ac8edf92b8d12cc, type: 3}
       propertyPath: objectsToHide.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 843514914211379963, guid: 195ba845036aaf343ac8edf92b8d12cc, type: 3}
       propertyPath: objectsToShow.Array.size
@@ -18657,8 +18657,8 @@ MonoBehaviour:
     dedicated managers.'
   ceiling: {fileID: 0}
   indoors: 1
-  actions:
-  - {fileID: 1924132193}
+  actions: []
+  clearObjectives: 1
 --- !u!82 &1006431941
 AudioSource:
   m_ObjectHideFlags: 0
@@ -34255,17 +34255,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1323530699300128439, guid: cd95bed07f9adbf42b77db5ad81423a3, type: 3}
   m_PrefabInstance: {fileID: 1924132190}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1924132193 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7956460498146233031, guid: cd95bed07f9adbf42b77db5ad81423a3, type: 3}
-  m_PrefabInstance: {fileID: 1924132190}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc63deaacb4a61d438db8042eb0f007b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ObjectiveInitiator
 --- !u!1001 &1926678086
 PrefabInstance:
   m_ObjectHideFlags: 0
